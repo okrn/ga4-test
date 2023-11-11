@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>検証用のサンプルページ</title>
+<!-- Google Analyticsのトラッキングコードをここに挿入 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_GOOGLE_ANALYTICS_TRACKING_ID"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'YOUR_GOOGLE_ANALYTICS_TRACKING_ID');
+</script>
+<!-- Clarityのトラッキングコードをここに挿入 -->
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "YOUR_CLARITY_TRACKING_ID");
+</script>
+</head>
+<body>
+<header>
+<h1>検証用の静的サイト</h1>
+</header>
+<nav>
+<ul>
+<li><a href="#section1">セクション1</a></li>
+<li><a href="#section2">セクション2</a></li>
+<li><a href="#section3">セクション3</a></li>
+</ul>
+</nav>
+<main>
+<section id="section1">
+<h2>セクション1</h2>
+<p>ここには検証用のコンテンツが表示されます。</p>
+</section>
+<section id="section2">
+<h2>セクション2</h2>
+<p>さまざまなインタラクションが計測できるように、コンテンツを配置します。</p>
+</section>
+<section id="section3">
+<h2>セクション3</h2>
+<p>ユーザーの行動を追跡して理解するためのセクションです。</p>
+</section>
+</main>
+<footer>
+<p>&copy; 2023 検証用サイト</p>
+</footer>
+</body>
+</html>
